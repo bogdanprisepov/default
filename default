@@ -1,0 +1,7 @@
+ case "print":
+    repo.printTree()
+   case "exit":
+    os.Exit(0)
+   default:
+    fmt.Println("Invalid command. Try again.")
+   }
